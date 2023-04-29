@@ -2,8 +2,6 @@ from gtts import gTTS  # pip install gtts, art
 from art import tprint
 from pathlib import Path
 
-print('[Для работы программы необходимо написать полный путь к искомому файлу, учитывая расширение .psd.\nP.S. необходимо чтобы файл с кирилицей имел расширение UTF-8 для корректной работы.\n(Важное примечание!) файлы с изображениями вероятнее всего не будут обработаны] ')
-
 # Создание переменной которая принимает введеный текст
 test_text = input('\nEnter your text:')
 text = input('\nEnter creating text file name:')
